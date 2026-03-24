@@ -1,0 +1,99 @@
+# Root .gitignore for RC_Mango project
+
+# Byte-compiled / Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec
+
+# Pytest / test output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS / Windows files
+.DS_Store
+Thumbs.db
+
+# General system temp files
+desktop.ini
+
+# Secrets / env
+.env
+.env.*
+
+# Microcontroller / toolchain build outputs
+# Ignore Debug directories produced by IDEs/build systems
+**/Debug/
+**/Debug/**
+
+# Common binary/object/linker artifacts
+*.elf
+*.axf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.obj
+*.d
+*.lst
+
+# Makefile-generated lists and objects
+objects.list
+objects.mk
+sources.mk
+makefile
+
+# Keep project configuration and source files tracked (do not ignore .ioc, .ld, .launch)
+# .ioc (STM32Cube), .ld (linker scripts), .launch (debug configs) are intentionally NOT ignored
+
+# Office / workbook temp locks
+~lock*
+*.~lock.*
+
+# Local runs / caches
+.cache/
+
+# Optional: ignore large user-specific files
+# Uncomment if you want to ignore spreadsheets/exports or other large binaries
+# *.ods
+# *.xlsx
+
+# Eclipse / STM32CubeIDE project metadata
+# These files are IDE-specific workspace files. Ignore them if you don't need Eclipse project metadata tracked.
+*.cproject
+*.project
+.metadata/
+.settings/
+
+# End of .gitignore
