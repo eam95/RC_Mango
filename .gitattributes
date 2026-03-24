@@ -1,0 +1,10 @@
+# enforce LF for text files
+* text=auto eol=lf
+
+# common binary files (keep as-is)
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+*.elf binary
+*.bin binary
